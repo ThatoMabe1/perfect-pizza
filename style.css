@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.pizza {
+    border: 2px solid #1f1c08;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+   
+}
+.medium_pizza {
+    background-color: #d6ab79ad;
+
+}
+
+.large_pizza {
+    background-color: #ccd5ae;
+}
+
+.small_pizza {
+    background-color: #fefae0;
+}
+
+.contact_us {
+    background-color: #bde0fe;
+}
+
+@media (min-width: 760px) {
+
+   .pizzas{
+    display:flex;
+}
+}
